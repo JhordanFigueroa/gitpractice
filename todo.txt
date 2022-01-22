@@ -18,3 +18,4 @@ git push -u origin main
 
 git checkout -b test => switch branches and make a new branch
 git checkout branchname => switch branches
+git merge branchname - merge with branchname 
