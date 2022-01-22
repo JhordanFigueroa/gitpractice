@@ -7,3 +7,14 @@ MY TO-DO LIST
 5. Visit aunt.
 6. Apply for remote jobs. 
 7. Practice code
+
+
+GIT COMMANDS:
+git status
+git add .
+git add file names
+git commit -m "description"
+git push -u origin main
+
+git checkout -b test => switch branches and make a new branch
+git checkout branchname => switch branches
