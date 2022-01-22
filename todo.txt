@@ -10,26 +10,33 @@ git checkout branchname => switch branches
 git merge branchname - merge with branchname 
 
 git pull origin branchname
-
 git branch -d branchaname = delete branch 
-
 git commit -am "description" => adding modified files, won't work for newly created files
-
 git reset filename - unstaging file 
-
 git reset hashofcommit 
-
 git rest --hard hashofcommit
-
-
 git clone URL - clone repo into local machine
-
 git log 
-
 git log --oneline => list of git commits descriptions 
-
 git diff branchname => shows the differences in the code
 
 
 Linux Commands:
 ls | grep name - searches for name 
+rm -rf foldername - remove folder
+
+Create Virtual Environment:
+virtualenv -p python3 . - create venv with python3
+source bin/activate - activate venv
+deactivate
+python3 -m venv tutorial-env
+source tutorial-env/bin/activate
+
+Django:
+pip install django==version
+mkdir src
+django-admin startproject trydjango .
+python manage.py startserver    
+
+
+
