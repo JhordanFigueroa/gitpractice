@@ -9,7 +9,7 @@ MY TO-DO LIST
 7. Practice code
 
 
-GIT COMMANDS:
+GIT COMMANDS: Cheat Sheet of commands: https://www.freecodecamp.org/news/git-cheat-sheet/
 git status
 git add .
 git add file names
@@ -19,3 +19,5 @@ git push -u origin main
 git checkout -b test => switch branches and make a new branch
 git checkout branchname => switch branches
 git merge branchname - merge with branchname 
+
+git clone URL - clone repo into local machine
